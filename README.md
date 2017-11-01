@@ -26,13 +26,15 @@
 
 We make use of several javascript packages in this project. Some of the main ones that you will want to make yourself familiar with are:
 
-- [react-native-navigation:](https://wix.github.io/react-native-navigation/#/) Natively implemented navigation package for react native
+- [react-native-navigation:](https://wix.github.io/react-native-navigation/#/) Natively implemented navigation package for react native.
 
-- [recompose:](https://github.com/acdlite/recompose/blob/master/docs/API.md) Used for creating and composing higher order components
+- [react-native-style-tachyons:](https://github.com/tachyons-css/react-native-style-tachyons) Functional styling library for react native inspired by tachyons.
 
-- [reselect:](https://github.com/reactjs/reselect) Used to create selectors for the redux store
+- [recompose:](https://github.com/acdlite/recompose/blob/master/docs/API.md) Used for creating and composing higher order components.
 
-- [i18next:](https://www.i18next.com/) Localization package for application copy
+- [reselect:](https://github.com/reactjs/reselect) Used to create selectors for the redux store.
+
+- [i18next:](https://www.i18next.com/) Localization package for application copy.
 
 
 ## Renaming The Project
