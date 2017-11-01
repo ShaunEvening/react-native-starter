@@ -1,0 +1,19 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "styles": "styles",
+          "components": "components",
+          "scenes": "scenes",
+          "common": "common",
+          "utils": "utils",
+          "locale": "locale"
+        }
+      }
+    ]
+  ]
+}
