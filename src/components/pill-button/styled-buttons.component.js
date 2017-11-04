@@ -8,8 +8,8 @@ export const WhitePillButton = partializeComponent({
 })(PillButton);
 
 export const WhiteKnockoutPillButton = partializeComponent({
-  activeStyles: [s.b_white, s.b2],
-  disabledStyles: [s.b_white_50, s.b2],
+  activeStyles: [s.b__white, s.bw3],
+  disabledStyles: [s.b__white_50, s.bw3],
 })(PillButton);
 
 export const PrimaryPillButton = partializeComponent({
@@ -18,8 +18,8 @@ export const PrimaryPillButton = partializeComponent({
 })(PillButton);
 
 export const PrimaryKnockoutPillButton = partializeComponent({
-  activeStyles: [s.b_primary, s.b2],
-  disabledStyles: [s.b_primary_50, s.b2],
+  activeStyles: [s.b__primary, s.bw3],
+  disabledStyles: [s.b__primary_50, s.bw3],
 })(PillButton);
 
 export const SecondaryPillButton = partializeComponent({
@@ -28,6 +28,6 @@ export const SecondaryPillButton = partializeComponent({
 })(PillButton);
 
 export const SecondaryKnockoutPillButton = partializeComponent({
-  activeStyles: [s.b_secondary, s.b2],
-  disabledStyles: [s.b_secondary_50, s.b2],
+  activeStyles: [s.b__secondary, s.bw3],
+  disabledStyles: [s.b__secondary_50, s.bw3],
 })(PillButton);
