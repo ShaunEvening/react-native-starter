@@ -16,5 +16,6 @@ export const ExampleContainer = compose(
   withHandlers({
     handleIsButtonActive: props => () => props.setIsButtonActive(!props.isButtonActive),
     handleCounterIncrement: props => () => props.setCounter(props.counter + 1),
+    handleCounterDecrement: props => () => props.setCounter(props.counter - 1),
   }),
 )(ExampleComponent);

@@ -1,5 +1,5 @@
 {
-  "name": "PumpApp",
+  "name": "ReactNativeStarter",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -18,8 +18,9 @@
     "i18next": "^8.4.3",
     "i18next-react-native-language-detector": "^1.0.2",
     "ramda": "^0.24.1",
-    "react": "16.0.0-alpha.6",
-    "react-native": "0.44.1",
+    "react": "^16.0.0",
+    "react-native": "^0.50.1",
+    "react-native-linear-gradient": "^2.3.0",
     "react-native-locale-detector": "^1.0.1",
     "react-native-navigation": "^1.1.256",
     "react-native-style-tachyons": "^3.4.2",

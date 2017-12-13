@@ -7,7 +7,8 @@ export const ExampleScene = {
   component: ExampleContainer,
   navigatorStyle: {
     navBarHidden: true,
-    statusBarColor: palette.white,
-    statusBarTextColorScheme: 'dark',
+    navigationBarColor: palette.primary_accent,
+    statusBarColor: palette.primary,
+    statusBarTextColorScheme: 'light',
   },
 };

@@ -20,9 +20,7 @@ export const exampleReducer = (state = INITIAL_EXAMPLE_STATE, action = {}) => {
       };
     }
     default: {
-      return {
-        ...state,
-      };
+      return state;
     }
   }
 };

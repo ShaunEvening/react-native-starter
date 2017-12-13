@@ -26,7 +26,8 @@ export const PillButton = ({
         s.aic,
         s.ass,
         s.br5,
-        s.pa3,
+        s.pv2,
+        s.ph3,
         ...styles,
       ]}
       activeOpacity={0.5}

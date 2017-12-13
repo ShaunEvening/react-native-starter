@@ -4,11 +4,8 @@ import { palette } from './colors';
 import {
   zIndexes,
   perecentWidths,
-  customWidths,
-  typeScaleOverride,
   perecentHeights,
   customHeights,
-  spacing,
   shapes,
   borders,
   textTransforms,
@@ -25,11 +22,8 @@ const extendedStyles = StyleSheet.create({
   ...zIndexes,
   ...perecentWidths,
   ...perecentHeights,
-  ...customWidths,
   ...customHeights,
-  ...typeScaleOverride,
   ...shapes,
-  ...spacing,
   ...borders,
   ...textTransforms,
 });

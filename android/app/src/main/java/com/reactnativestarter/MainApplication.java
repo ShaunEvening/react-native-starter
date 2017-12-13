@@ -3,6 +3,7 @@ package com.reactnativestarter;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.BV.LinearGradient.LinearGradientPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.reactnativenavigation.NavigationApplication;
 import com.i18n.reactnativei18n.ReactNativeI18n;
@@ -25,7 +26,8 @@ public class MainApplication extends NavigationApplication {
   protected List<ReactPackage> getPackages() {
     return Arrays.<ReactPackage>asList(
       new VectorIconsPackage(),
-      new ReactNativeI18n()
+      new ReactNativeI18n(),
+      new LinearGradientPackage()
     );
   }
 

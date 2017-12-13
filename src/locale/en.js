@@ -1,7 +1,8 @@
 export const en = {
   example: {
-    welcome: 'This is the localized react native starter application',
-    buttonText: 'pressed {{counter}} times',
+    counter: '{{counter}}',
+    buttonIncrement: 'Increment',
+    buttonDecrement: 'Decrement',
     toggleText: 'Is Counter Button Active?',
   },
 };
