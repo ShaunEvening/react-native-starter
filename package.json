@@ -1,8 +1,13 @@
 {
-  "name": "ReactNativeStarter",
+  "name": "YourAppName",
   "version": "0.0.1",
   "private": true,
+  "config": {
+    "displayName": "YourDisplayName"
+  },
   "scripts": {
+    "config": "node ./config-scripts/config.js",
+    "postconfig": "rm -r ./android && rm -r ./ios && react-native eject",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "ios": "node node_modules/react-native/local-cli/cli.js run-ios --simulator=\"iPhone 8 Plus\"",
     "android": "node node_modules/react-native/local-cli/cli.js run-android",
