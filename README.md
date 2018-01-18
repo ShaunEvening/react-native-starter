@@ -41,11 +41,7 @@ We make use of several javascript packages in this project. Some of the main one
 
 To rename the project you will need to do the following:
 
-- Change `name` and `displayName` in `./app.json`
-
-- Delete the `./android` and `./ios` directories
-
-- run the `react-native eject` command. This will generate new `./android` and `./ios` directories with the new name and display name
+- Run the following command: `npm run config -- --displayName='Your App Name'`
 
 - Relink the react-native packages for both android and iOS. We recommend doing this manually as `react-native link` doesn't always get it right.
 
