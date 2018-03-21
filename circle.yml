@@ -1,20 +1,30 @@
-machine:
-  node:
-    version: 7.8
-  environment:
-    PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:carbon
+    working_directory: ~/repo
+    steps:
+      - checkout
 
-dependencies:
-  override:
-    - yarn
-  cache_directories:
-    - ~/.cache/yarn
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-
 
-test:
-  override:
-    - yarn test
-    - yarn lint
+      - run:
+          name: Install Dependencies
+          command: yarn install
 
-general:
-  artifacts:
-    - "coverage"
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run:
+          name: Lint code
+          command: yarn lint
+
+      - run:
+          name: Run test suite
+          command: yarn test
